@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+body{
+    text-align: center;
+    padding:0px;
+    margin:0px
+}
+
+#heading{
+    font-family: 'Rye', cursive;
+    padding:1rem;
+    background-color: #B08BBB;
+    color:rgb(231, 27, 27);
+    font-size: x-large;
+    border-bottom-left-radius: 2rem;
+}
+h2{
+    font-family: 'Rye', cursive;
+}
+#output{
+    border: 2px solid black;
+    height: 10vh;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+textarea{
+    width:30%;
+    height:10vh; 
+    margin:1rem;
+    padding:1rem;
+}
+textarea::placeholder{
+    font-family: 'Rye', cursive;
+    font-size: x-large;
+}
+#btn-translate {
+    margin:1rem;
+    width:15%;
+    background-color:white;
+    border: 0px;  
+    border-radius: 100%;
+    cursor: pointer;
+}
+#btn-translate #shaky{
+    width:100%;
+    border-radius: 100%;
+}
+#btn-translate #shaky2 {
+    width:100%;
+    display: none;
+    border-radius: 100%;
+}
+footer{
+    margin-top:2rem;
+    padding:2rem;
+    font-family: 'Rye', cursive;
+    background-color:#B08BBB;
+    border-top-right-radius: 2rem;
+}
+footer .desc{
+    max-width: 50%;
+    margin: auto;
+    font-size: large;
+    color:rgb(243, 15, 15);
+}
